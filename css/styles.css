@@ -1,0 +1,189 @@
+:root {
+    --IRIS: #4D5AE5;
+    --NAVY-BLUE: #2e2f42;
+    --SLATE: #434455;
+    --CLOUD: #f4f4fd;
+    --ocean:#4f42b5;
+
+
+
+}
+ul {      
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    
+
+}
+section.contact {
+    text-decoration: none;
+
+}
+
+body {
+    font-family: "Roboto", sans-serif;
+}
+
+section.title {
+    background-color: #2E2F42;
+}
+
+h1 {
+    font-size: 56px;
+    text-align: center;
+    font-family: Roboto;
+    font-weight: 700;
+    line-height: 60px;
+    letter-spacing: 1.12px;
+    text-transform: uppercase; 
+}
+
+.title {
+    color:#ffffff;
+    background-color: #4D5AE5;
+    border-radius: 4px;
+    border: none;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+    font-size: 16px
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0.64px;
+    
+}
+
+.title button:hover {
+    cursor: pointer;
+    background-color: var(--ocean);
+    
+}
+
+.web {
+    color: #4d5ae5;
+    text-decoration: none;
+    font-family: Raleway;
+    font-size: 18px;
+    font-weight: 800;
+    line-height: 21px;
+    letter-spacing: 0.54px;
+    text-transform: uppercase;   
+}
+
+.studio-nav {
+    color: var(--NAVY-BLUE);
+           
+   
+}
+.social-link { 
+    text-decoration: none;
+    list-style-type: none;
+    font-size: 16px;
+    line-height: 24px;
+    color: #2E2F42;
+    letter-spacing: 0.32px;
+    font-weight: 500;
+}    
+
+.nav-link:hover,
+.nav-link:focus {
+    color: var(--ocean);
+}
+
+.active {
+    color: var(--ocean);
+}
+
+.contacts-info {
+    text-decoration: none;
+    list-style-type: none;
+    font-size: 16px;
+    line-height: 24px;
+    color: var(--SLATE);
+    letter-spacing: 0.32px;
+    font-weight: 400;
+    
+}
+
+.techniques h2 {
+    color: var(--NAVY-BLUE);
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0.4px;
+
+}
+.techniques p {
+    font-size: 16px;
+    font-weight: 400px;
+    line-height: 24px;
+    letter-spacing: 0.32px;
+
+}
+
+.what-we-do h2 {
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 40px;
+    letter-spacing: 0.72px;
+    text-transform: capitalize;
+    text-align: center;
+    color: var(--NAVY-BLUE);
+
+}
+
+.team h2 {
+    color: var(--NAVY-BLUE);
+    text-align: center;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 40px;
+    letter-spacing: 0.72px;
+    text-transform: capitalize;  
+
+}
+
+.team-members h3 {
+    color: var(--SLATE);
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0.4px; 
+
+}
+
+.team-members p {
+    color: var(--SLATE);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.32px;
+
+
+}
+.text {
+    color: var(--CLOUD);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.32px;
+}
+
+footer {
+    background-color: var(--NAVY-BLUE) ;
+}
+
+
+.studio-footer {
+    color: var(--CLOUD);
+
+}
+
+
+
+
+
+    
+    
+
+
+
+
